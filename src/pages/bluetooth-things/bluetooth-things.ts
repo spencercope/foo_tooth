@@ -37,6 +37,8 @@ export class BluetoothThingsPage {
       (err) => {
         console.log(err);
       });
+    //98:D3:36:80:FB:15
+    //this.bluetoothSerial.connect('98:D3:36:80:FB:15').subscribe(this.success, this.fail);
   }
 
   /* Slide 1 - Find, Connect, Disconnect */

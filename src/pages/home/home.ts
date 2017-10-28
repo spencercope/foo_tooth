@@ -15,4 +15,7 @@ export class HomePage {
     this.navCtrl.push('BluetoothThingsPage');
   }
 
+  goToBLE(): void {
+    this.navCtrl.push('BlePage');
+  }
 }
